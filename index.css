@@ -1,0 +1,652 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@900&family=Bellefair&family=Kumbh+Sans:wght@200;700;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:wght@400;500&family=Rubik:wght@300&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-image: url('./img/backimg2.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+@media all and (max-width: 2000px) and (min-width: 965px) {
+    #title
+    {
+        width: 50%;
+        margin-left: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10%;
+    }
+    h1
+    {
+        color: white;
+        font-size: 40px;
+    }
+    #main
+    {
+        width: 50%;
+        margin-left: 25%;
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        gap: 20%;
+    }
+    #img1
+    {
+        cursor: pointer;
+    }
+
+    /* Qui */
+    #second
+    {
+        width: 50%;
+        margin-left: 25%;
+        display: flex;
+        gap: 5%;
+        justify-content: center;
+        margin-top: 3%;
+        flex-wrap: wrap;
+    }
+    .squadre
+    {
+        width: 8%;
+        cursor: pointer;
+    }
+    #divback
+    {
+        display: flex;
+        align-items: center;
+        margin-left: 5%;
+    }
+    #imgback
+    {
+        width: 17%;
+        cursor: pointer;
+    }
+    #mainsqd
+    {
+        display: flex;
+        align-items: center;
+    }
+    #lbback
+    {
+        margin-left: 5%;
+        color: white;
+        cursor: pointer;
+    }
+    #sqddiv
+    {
+        margin-left: 17%;
+        width: 50%;
+        margin-top: 3%;
+        display: flex;
+        gap: 3%;
+        align-items: center;
+    }
+    #sqdtitolo
+    {
+        text-transform: uppercase;
+        font-size: 25px;
+        color: white;
+    }
+    #imgteam
+    {
+        width: 12%;
+    }
+    hr
+    {
+        width: 50%;
+        margin-left: 25%;
+    }
+    #sqdintestazione
+    {
+        display: flex;
+        gap: 3%;
+        align-items: center;
+        width: 50%;
+        margin-left: 25%;
+        justify-content: space-around;
+    }
+    .sqdtitint
+    {
+        font-size: 20px;
+        cursor: pointer;
+    }
+    #menuseason
+    {
+        cursor: pointer;
+        margin-left: 5%;
+        width: 50%;
+        font-size: 18px;
+        text-align: center;
+    }
+    option
+    {
+        cursor: pointer;
+    }
+    .secondint
+    {
+        width: 33%;
+        text-align: center;
+        color: white;
+    }
+    #sqdstagione:hover
+    {
+        background-color: none;
+    }
+    .secondint:hover
+    {
+        background-color: lightgray;
+    }
+
+    #divtabinfo,#divtabstats
+    {
+        margin-left: 25%;
+        width: 50%;
+    }
+    table
+    {
+        width: 100%;
+    }
+    tr,td
+    {
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    #tab10,#tab20
+    {
+        width: 33%;
+    }
+    #tab01,#tab02,#tab03
+    {
+        width: 22%;
+    }
+}
+@media all and (max-width: 964px) and (min-width: 771px) 
+{
+    #title
+    {
+        width: 50%;
+        margin-left: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10%;
+    }
+    h1
+    {
+        color: white;
+        font-size: 30px;
+    }
+    #main
+    {
+        width: 50%;
+        margin-left: 25%;
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        gap: 20%;
+    }
+    #img1
+    {
+        cursor: pointer;
+    }
+
+    /* Qui */
+    #second
+    {
+        width: 50%;
+        margin-left: 25%;
+        display: flex;
+        gap: 5%;
+        justify-content: center;
+        margin-top: 3%;
+        flex-wrap: wrap;
+    }
+    .squadre
+    {
+        width: 8%;
+        cursor: pointer;
+    }
+    #divback
+    {
+        display: flex;
+        align-items: center;
+        margin-left: 5%;
+    }
+    #imgback
+    {
+        width: 17%;
+        cursor: pointer;
+    }
+    #mainsqd
+    {
+        display: flex;
+        align-items: center;
+    }
+    #lbback
+    {
+        margin-left: 5%;
+        color: white;
+        cursor: pointer;
+    }
+    #sqddiv
+    {
+        margin-left: 17%;
+        width: 50%;
+        margin-top: 3%;
+        display: flex;
+        gap: 3%;
+        align-items: center;
+    }
+    #sqdtitolo
+    {
+        text-transform: uppercase;
+        font-size: 25px;
+        color: white;
+    }
+    #imgteam
+    {
+        width: 12%;
+    }
+    hr
+    {
+        width: 50%;
+        margin-left: 25%;
+    }
+    #sqdintestazione
+    {
+        display: flex;
+        gap: 3%;
+        align-items: center;
+        width: 50%;
+        margin-left: 25%;
+        justify-content: space-around;
+    }
+    .sqdtitint
+    {
+        font-size: 20px;
+        cursor: pointer;
+    }
+    #menuseason
+    {
+        cursor: pointer;
+        margin-left: 5%;
+        width: 50%;
+        font-size: 18px;
+        text-align: center;
+    }
+    option
+    {
+        cursor: pointer;
+    }
+    .secondint
+    {
+        width: 33%;
+        text-align: center;
+        color: white;
+    }
+    #sqdstagione:hover
+    {
+        background-color: none;
+    }
+    .secondint:hover
+    {
+        background-color: lightgray;
+    }
+
+    #divtabinfo,#divtabstats
+    {
+        margin-left: 25%;
+        width: 50%;
+    }
+    table
+    {
+        width: 100%;
+    }
+    tr,td
+    {
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    #tab10,#tab20
+    {
+        width: 33%;
+    }
+    #tab01,#tab02,#tab03
+    {
+        width: 22%;
+    }
+}
+@media all and (max-width: 770px) and (min-width: 351px) 
+{
+    #title
+    {
+        width: 75%;
+        margin-left: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10%;
+    }
+    h1
+    {
+        color: white;
+        font-size: 20px;
+    }
+    #main
+    {
+        width: 50%;
+        margin-left: 25%;
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        gap: 20%;
+        flex-direction: column;
+        align-items: center;
+    }
+    #img1
+    {
+        cursor: pointer;
+    }
+
+    /* Qui */
+    #second
+    {
+        width: 50%;
+        margin-left: 25%;
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        margin-top: 3%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .squadre
+    {
+        width: 19%;
+        cursor: pointer;
+    }
+    #divback
+    {
+        display: flex;
+        align-items: center;
+        margin-left: 5%;
+    }
+    #imgback
+    {
+        width: 17%;
+        cursor: pointer;
+    }
+    #mainsqd
+    {
+        display: flex;
+        align-items: center;
+    }
+    #lbback
+    {
+        margin-left: 5%;
+        color: white;
+        cursor: pointer;
+    }
+    #sqddiv
+    {
+        margin-left: 8%;
+        width: 50%;
+        margin-top: 3%;
+        display: flex;
+        gap: 3%;
+        align-items: center;
+    }
+    #sqdtitolo
+    {
+        text-transform: uppercase;
+        font-size: 25px;
+        color: white;
+    }
+    #imgteam
+    {
+        width: 12%;
+    }
+    hr
+    {
+        width: 75%;
+        margin-left: 15%;
+    }
+    #sqdintestazione
+    {
+        display: flex;
+        gap: 3%;
+        align-items: center;
+        width: 75%;
+        margin-left: 15%;
+        justify-content: space-around;
+    }
+    .sqdtitint
+    {
+        font-size: 12px;
+        cursor: pointer;
+    }
+    #menuseason
+    {
+        cursor: pointer;
+        margin-left: 5%;
+        width: 80%;
+        font-size: 10px;
+        text-align: center;
+    }
+    option
+    {
+        cursor: pointer;
+    }
+    .secondint
+    {
+        width: 33%;
+        text-align: center;
+        color: white;
+    }
+    #sqdstagione:hover
+    {
+        background-color: none;
+    }
+    .secondint:hover
+    {
+        background-color: lightgray;
+    }
+
+    #divtabinfo,#divtabstats
+    {
+        margin-left: 15%;
+        width: 75%;
+    }
+    table
+    {
+        width: 100%;
+    }
+    tr,td
+    {
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 11px;
+    }
+    #tab10,#tab20
+    {
+        width: 33%;
+    }
+    #tab01,#tab02,#tab03
+    {
+        width: 22%;
+    }
+}
+@media (max-width: 350px)
+{
+    #title
+    {
+        width: 75%;
+        margin-left: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10%;
+    }
+    h1
+    {
+        color: white;
+        font-size: 20px;
+    }
+    #main
+    {
+        width: 50%;
+        margin-left: 25%;
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        gap: 20%;
+        flex-direction: column;
+        align-items: center;
+    }
+    #img1
+    {
+        cursor: pointer;
+    }
+
+    /* Qui */
+    #second
+    {
+        width: 50%;
+        margin-left: 25%;
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        margin-top: 3%;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .squadre
+    {
+        width: 19%;
+        cursor: pointer;
+    }
+    #divback
+    {
+        display: flex;
+        align-items: center;
+        margin-left: 5%;
+    }
+    #imgback
+    {
+        width: 17%;
+        cursor: pointer;
+    }
+    #mainsqd
+    {
+        display: flex;
+        align-items: center;
+    }
+    #lbback
+    {
+        margin-left: 5%;
+        color: white;
+        cursor: pointer;
+    }
+    #sqddiv
+    {
+        margin-left: 8%;
+        width: 50%;
+        margin-top: 3%;
+        display: flex;
+        gap: 3%;
+        align-items: center;
+    }
+    #sqdtitolo
+    {
+        text-transform: uppercase;
+        font-size: 18px;
+        color: white;
+    }
+    #imgteam
+    {
+        width: 12%;
+    }
+    hr
+    {
+        width: 75%;
+        margin-left: 15%;
+    }
+    #sqdintestazione
+    {
+        display: flex;
+        gap: 3%;
+        align-items: center;
+        width: 75%;
+        margin-left: 15%;
+        justify-content: space-around;
+    }
+    .sqdtitint
+    {
+        font-size: 12px;
+        cursor: pointer;
+    }
+    #menuseason
+    {
+        cursor: pointer;
+        margin-left: 5%;
+        width: 80%;
+        font-size: 10px;
+        text-align: center;
+    }
+    option
+    {
+        cursor: pointer;
+    }
+    .secondint
+    {
+        width: 33%;
+        text-align: center;
+        color: white;
+    }
+    #sqdstagione:hover
+    {
+        background-color: none;
+    }
+    .secondint:hover
+    {
+        background-color: lightgray;
+    }
+
+    #divtabinfo,#divtabstats
+    {
+        margin-left: 15%;
+        width: 75%;
+    }
+    table
+    {
+        width: 100%;
+    }
+    tr,td
+    {
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 11px;
+    }
+    #tab10,#tab20
+    {
+        width: 33%;
+    }
+    #tab01,#tab02,#tab03
+    {
+        width: 22%;
+    }
+}
