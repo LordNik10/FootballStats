@@ -512,7 +512,7 @@ body
         justify-content: center;
         margin-top: 5%;
         gap: 20%;
-        flex-direction: column;
+        flex-wrap: wrap;
         align-items: center;
     }
     #img1
